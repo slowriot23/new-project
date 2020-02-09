@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size: 3rem;
+	color:#eee000;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 20px;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+}
+.btn-danger {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+}
+.btn-danger:hover {
+	background-color: pink;
+	border-color: pink;
+
+}
+hr {
+	border-color: red;
+	border-width: 3px;
+	max-width:65px;
+}
+.buffer {
+	height: 9rem;
+}
